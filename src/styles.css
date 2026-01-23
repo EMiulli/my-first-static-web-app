@@ -29,11 +29,11 @@ main {
   margin: auto;
   padding: 2rem;
 }
-
-h1, h2 {
-  color: #222;
+nav {
+  background: #333;
+  padding: 1rem;
+  text-align: center;
 }
-
 section {
   margin-bottom: 3rem;
 }
