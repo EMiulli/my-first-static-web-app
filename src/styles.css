@@ -1,9 +1,27 @@
+:root {
+  --bg: #f9f9f9;
+  --text: #222;
+  --card: #ffffff;
+}
+
 body {
+  background: var(--bg);
   font-family: system-ui, Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   background: #f9f9f9;
-  color: #333;
+ 
+  color: var(--text);
+}
+
+li {
+  background: var(--card);
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f1f1f1;
+  --card: #1e1e1e;
 }
 
 main {
